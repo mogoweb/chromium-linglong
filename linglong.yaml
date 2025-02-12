@@ -24,7 +24,7 @@ sources:
     version: tag/127.0.6533.99-1
     commit: e0563dfe970c2bc62b2474607e2539f0250b6074
   # linglong:gen_deb_source sources arm64 https://pools.uniontech.com/deepin-beige beige main community
-  # linglong:gen_deb_source install build-essential
+  # linglong:gen_deb_source install build-essential, ninja-build, patch
   - kind: file
     url: https://pools.uniontech.com/deepin-beige/pool/main/b/binutils/binutils-aarch64-linux-gnu_2.41-6deepin4_arm64.deb
     digest: 6dea84674ed887668dbcff5aa24049be9d6ab447c5a25efd0319daf262d678fb
@@ -232,6 +232,9 @@ sources:
   - kind: file
     url: https://pools.uniontech.com/deepin-beige/pool/main/m/make-dfsg/make_4.3-4.1_arm64.deb
     digest: 5605fd4da45b98e233ed57ac481699a81a65c06194983be07892ff1a60be0c76
+  - kind: file
+    url: https://pools.uniontech.com/deepin-beige/pool/main/n/ninja-build/ninja-build_1.12.1-1deepin0_arm64.deb
+    digest: 8b8968557d0ea5477bacbd7e825a6f40d2bd0fc73772e78daeccf1774ea3d3b1
   - kind: file
     url: https://pools.uniontech.com/deepin-beige/pool/main/p/patch/patch_2.7.6-7_arm64.deb
     digest: d69d6e60753f09647125fa0991f7bda438f75c33708a9ca01dd6f1b6b87a3bd7
